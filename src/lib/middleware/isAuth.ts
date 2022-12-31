@@ -65,7 +65,7 @@ export const isAuth = (request: Request) => {
     return authData;
   }
 
-  // if the decoded token is not set
+  // if the decoded token is not set test comment
   if (!decodedToken) {
     logger.info("decoded token is not present");
     return authData;
